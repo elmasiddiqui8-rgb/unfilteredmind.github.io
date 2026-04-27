@@ -3,20 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YOUR NAME - Political Science</title>
+    <title>Unfiltered Mind - Political Science Research</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body style="font-family: 'Inter', sans-serif; text-align:center; padding:100px; background:#f8f9fa;">
-    <h1 style="color:#0066ff; font-size:3rem;">🎉 Your Website is LIVE!</h1>
-    <p style="font-size:1.5rem; color:#666;">https://YOURUSERNAME.github.io</p>
-    <div style="background:white; max-width:600px; margin:50px auto; padding:40px; border-radius:20px; box-shadow:0 20px 40px rgba(0,0,0,0.1);">
-        <h2>✅ Next Steps:</h2>
-        <ol style="text-align:left; font-size:1.2rem;">
-            <li>Add your <strong>name</strong> above</li>
-            <li>Reply "Done!" to me</li>
-            <li>I'll give you full political science template</li>
-        </ol>
-    </div>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo"><a href="#home">Unfiltered Mind</a></div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#papers">Papers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Political Science Research</h1>
+            <p>Deep analysis of governance, policy, and global politics</p>
+            <div class="hero-buttons">
+                <a href="#blog" class="btn btn-primary">Read Latest</a>
+                <a href="#papers" class="btn btn-secondary">Research Papers</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Political science researcher exploring contemporary issues in governance, international relations, and policy analysis. Sharing insights through blogs and academic papers.</p>
+                    <p>Add your education, experience, and research interests here.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Blog Posts</h2>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <h3>Sample Blog Post 1</h3>
+                    <p>Write about your political analysis here. Lorem ipsum dolor sit amet...</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+                <div class="blog-card">
+                    <h3>Sample Blog Post 2</h3>
+                    <p>Another political topic. Add your real content here...</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Papers -->
+    <section id="papers" class="papers" style="background:#f8f9fa;">
+        <div class="container">
+            <h2>Research Papers</h2>
+            <div class="papers-grid">
+                <div class="paper-card">
+                    <h3>Your Paper Title (PDF)</h3>
+                    <p>Upload your PDF here and link it</p>
+                    <a href="#" class="download-btn">Download PDF</a>
+                </div>
+                <div class="paper-card">
+                    <h3>Another Paper</h3>
+                    <p>Academic research paper</p>
+                    <a href="#" class="download-btn">Download PDF</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message" rows="5"></textarea>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
